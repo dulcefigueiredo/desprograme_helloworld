@@ -1,0 +1,78 @@
+/* asterisco é para ser aplicado na página inteira*/
+*{margin: 0; padding: 0;}
+
+body
+{font-size: 16px;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+background: #e6e6e6;}
+/*background: color; size;...*/
+
+header
+{background-image: url(galaxy.jpg);
+padding: 15px;
+text-align: center;}
+
+p {text-align: justify}
+
+/*mesma configuração, utiliza vígula e colocar as tags*/
+#logo, nav
+{padding: 10px;}
+
+h1
+{color: #f7b600;
+font-size: 40px;}
+
+.branco {color: white}
+
+/*: pseudo classe ou elemento*/
+nav a {text-decoration: none;}
+nav a:link, a:visited {color: white; padding: 8px 12px;}
+nav a:hover {color: #f7b600; background: white;}
+
+/*auto serve para centralizar*/
+section
+{width: 920px;
+margin: 0 auto;
+padding: 15px;}
+
+section a {text-decoration: none;}
+section a:link, section a:visited {color: #f7b600;}
+section a:hover {text-decoration: underline}
+
+#post {width: 660px; float: left;}
+/*float flutua para onde direcionar*/
+
+.postagem
+{padding: 20px;
+margin-bottom: 20px;
+background: white}
+
+img {width: 620px}
+
+.dataPost
+{font-size: 0.8em; /*em relatico a letra mais larga (m)*/
+border-bottom: 1px solid #f4f4f4;
+padding-bottom: 10px;
+margin-bottom: 10px;
+display: block; /*fixar a linha*/} 
+
+#sidebar {width: 240px; float: right;}
+
+.conteudo-lateral
+{background: white;
+padding: 10px;
+margin-bottom: 20px;}
+
+h3 {color: #ffffff; background-image: url(galaxy.jpg); padding: 5px;}
+
+.texto-lateral {font-size: 0.8em; padding: 5px}
+
+hr {color: #cccc; margin: 2px}
+
+.conteudo-lateral ul {color: #565656; margin-left: 5px}
+
+footer
+{background: #cccc;
+clear: both; /* evita que sobreponha outros conteúdos*/
+text-align: center;
+padding: 15px;}
